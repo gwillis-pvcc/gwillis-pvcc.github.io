@@ -1,0 +1,48 @@
+<html>
+<!--Name: Gaia Willis
+    Purpose: Simple arithmetic with java script
+-->
+<head>
+<title>First JS</title>
+<script type="text/javascript">
+	function calculate()
+	{
+	//define variables
+		var num1;
+		var num2;
+		var addans;
+		var subans;
+		var multans;
+		var divans;
+		var modans;
+	//get data from user
+		num1 = prompt("Enter the first number:");
+		num2 = prompt("Enter the second number:");
+	//perform calculations
+		addans = num1 * 1 + num2 * 1; 
+		subans = num1 - num2;
+		multans = num1 * num2;
+		divans = num1 / num2;
+		modans = num1 % num2;
+	//display results
+		document.write("<h1 style='color: #7d3c98'>Arithmetic Answers"
+		+ "<br />");
+		document.write("addition of " +num1 + " and " + num2 +" equals " + addans + "<br />");
+		document.write("subtraction of " +num1 + " and " + num2 +" equals " + subans + "<br />");
+		document.write("multiplication of " +num1 + " and " + num2 +" equals " + multans + "<br />");
+		document.write("division of " +num1 + " and " + num2 +" equals " + divans + "<br />");
+		document.write("The whole number remainder is: " + modans + "<br />");
+		document.write("</h1>");
+	}
+	</script>
+</head>
+<body>
+<h1 align="center" style="color:midnightblue; background-color:cyan; border:midnightblue; border-width:5px; border-style:solid;">Very basic arithmetic calculator <br />
+using java script
+	<form align="center">
+		<input type="button" value="Click here for arithmetic calculations"
+		class="calcbutton" onclick="calculate()">
+	</form>
+	</h1>
+</body>
+</html>
