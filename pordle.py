@@ -1,9 +1,4 @@
-# Name: Dwight Dart
-# Program Purpose: Pordle (PVCC Wordle): Word Guessing Game
-#   The program chooses a random word from a file of words. The user tries to
-#   figure out the word in the fewest guesses by guessing letters in the word.
-#   This program uses an input FILE, LISTS, and STRING SLICES (section of the string).
-
+# Gaia Willis
 import random
 
 def main():
